@@ -35,7 +35,7 @@ float temperature;
 float humidity;
 float heat_index;
 String parameter = ""; // Show POST parameters
-StaticJsonBuffer<200> jsonBuffer;
+
 
 void setup() {
   Serial.begin(9600);
